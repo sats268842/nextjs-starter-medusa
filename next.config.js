@@ -6,7 +6,7 @@ module.exports = withStoreConfig({
   features: store.features,
   reactStrictMode: true,
   images: {
-    domains: ["test-vajraah-admin-site.s3.amazonaws.com", "localhost"],
+    domains: ["test-vajraah-admin-site.s3.amazonaws.com", "localhost","test-vajraah-admin-site.ap-south-1.amazonaws.com"],
   },
   webpack: (config, options) => {
     if (options.isServer) {
