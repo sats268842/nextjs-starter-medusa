@@ -15,7 +15,7 @@ const Hero = () => {
         </p>
         <UnderlineLink  href="/store" >Explore Menu</UnderlineLink>
       </div>
-      <Image
+      {/* <Image
         src="https://images.unsplash.com/photo-1579027989536-b7b1f875659b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format"
         layout="fill"
         loading="eager"
@@ -25,7 +25,7 @@ const Hero = () => {
         alt="Photo by @thevoncomplex https://unsplash.com/@thevoncomplex"
         className="absolute inset-0"
         draggable="false"
-      />
+      /> */}
     </div>
   )
 }
