@@ -3,7 +3,8 @@ import Image from "next/image"
 
 const Hero = () => {
   return (
-    <div className="h-[90vh] w-full relative">
+    <div className="h-[90vh] w-full relative" 
+    styles={{background: "linear-gradient(to right top, #7359ff, #635bf8, #535cf0, #435de7, #335dde, #1e6be3, #0677e6, #0083e7, #009def, #00b2e9, #00c5da, #00d5c7)"}}>
       <div className="text-white absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:text-left small:justify-end small:items-start small:p-32">
         <h1 className="text-6xl font-bold mb-4 drop-shadow-md shadow-black ">
         What do you like <br></br> to eat right now?
